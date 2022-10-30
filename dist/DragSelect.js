@@ -3421,20 +3421,20 @@
         hoverClassName: hoverClass,
         multiSelectToggling: multiSelectToggling
       });
-      this.Drag = new Drag({
-        DS: this,
-        draggability: draggability,
-        useTransform: useTransform,
-        keyboardDrag: keyboardDrag,
-        dragKeys: Object.assign({
-          up: ['ArrowUp'],
-          down: ['ArrowDown'],
-          left: ['ArrowLeft'],
-          right: ['ArrowRight']
-        }, dragKeys),
-        zoom: zoom,
-        keyboardDragSpeed: keyboardDragSpeed
-      });
+    //   this.Drag = new Drag({
+    //     DS: this,
+    //     draggability: draggability,
+    //     useTransform: useTransform,
+    //     keyboardDrag: keyboardDrag,
+    //     dragKeys: Object.assign({
+    //       up: ['ArrowUp'],
+    //       down: ['ArrowDown'],
+    //       left: ['ArrowLeft'],
+    //       right: ['ArrowRight']
+    //     }, dragKeys),
+    //     zoom: zoom,
+    //     keyboardDragSpeed: keyboardDragSpeed
+    //   });
       this.Interaction = new Interaction({
         areaElement: area,
         DS: this,
